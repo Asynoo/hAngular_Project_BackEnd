@@ -1,9 +1,16 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
+using ToMo.hAngularProject.Core.IServices;
+using ToMo.hAngularProject.DataAccess;
+using ToMo.hAngularProject.DataAccess.Entities;
+using ToMo.hAngularProject.DataAccess.Repositories;
+using ToMo.hAngularProject.Domain.IRepositories;
+using ToMo.hAngularProject.Domain.Services;
 
 namespace hAngular_Project
 {
@@ -16,7 +23,6 @@ namespace hAngular_Project
 
         public IConfiguration Configuration { get; }
 
-        // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
@@ -24,16 +30,21 @@ namespace hAngular_Project
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "ToMo.hAngularProject.WebApi", Version = "v1" });
             });
+            
+            services.AddScoped<IProductRepository, ProductRepository>();
+            services.AddScoped<IProductService, ProductService>();
+            
+            services.AddDbContext<MainDbContext>(options => { options.UseSqlite("Data Source=MoTo.db");});
         }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, MainDbContext context)
         {
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "ToMo.hAngularProject.WebApi v1"));
+                new DbSeeder(context).SeedDevelopment();
             }
 
             app.UseHttpsRedirection();
