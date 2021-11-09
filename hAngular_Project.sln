@@ -1,6 +1,20 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hAngular_Project", "hAngular_Project\hAngular_Project.csproj", "{8BAE0F33-73B6-43A2-BC71-9C8BCE4CEC5A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToMo.hAngularProject.WebApi", "ToMo.hAngularProject.WebApi\ToMo.hAngularProject.WebApi.csproj", "{8BAE0F33-73B6-43A2-BC71-9C8BCE4CEC5A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{C3CF60BB-F359-49CC-8341-E3F0C4EA6B63}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{9AAA71C7-9671-402A-9426-D5B659FA0920}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{BE1428C7-6834-4335-A696-319B64A14EB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToMo.hAngularProject.DataAccess", "ToMo.hAngularProject.DataAccess\ToMo.hAngularProject.DataAccess.csproj", "{CCE457CA-201D-4D3F-B067-CFFCED34AE4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToMo.hAngularProject.Security", "ToMo.hAngularProject.Security\ToMo.hAngularProject.Security.csproj", "{BA732AD7-5299-476D-A394-2D6E64DB3601}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToMo.hAngularProject.Domain", "ToMo.hAngularProject.Domain\ToMo.hAngularProject.Domain.csproj", "{DE4AD26A-E32D-4BDD-BD93-1ED0F6F6FA2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToMo.hAngularProject.Core", "ToMo.hAngularProject.Core\ToMo.hAngularProject.Core.csproj", "{8A726107-72F5-4FFF-A8A1-822F82F37091}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,5 +26,28 @@ Global
 		{8BAE0F33-73B6-43A2-BC71-9C8BCE4CEC5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8BAE0F33-73B6-43A2-BC71-9C8BCE4CEC5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8BAE0F33-73B6-43A2-BC71-9C8BCE4CEC5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCE457CA-201D-4D3F-B067-CFFCED34AE4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCE457CA-201D-4D3F-B067-CFFCED34AE4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCE457CA-201D-4D3F-B067-CFFCED34AE4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCE457CA-201D-4D3F-B067-CFFCED34AE4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA732AD7-5299-476D-A394-2D6E64DB3601}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA732AD7-5299-476D-A394-2D6E64DB3601}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA732AD7-5299-476D-A394-2D6E64DB3601}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA732AD7-5299-476D-A394-2D6E64DB3601}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE4AD26A-E32D-4BDD-BD93-1ED0F6F6FA2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE4AD26A-E32D-4BDD-BD93-1ED0F6F6FA2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE4AD26A-E32D-4BDD-BD93-1ED0F6F6FA2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE4AD26A-E32D-4BDD-BD93-1ED0F6F6FA2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A726107-72F5-4FFF-A8A1-822F82F37091}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A726107-72F5-4FFF-A8A1-822F82F37091}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A726107-72F5-4FFF-A8A1-822F82F37091}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A726107-72F5-4FFF-A8A1-822F82F37091}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8BAE0F33-73B6-43A2-BC71-9C8BCE4CEC5A} = {BE1428C7-6834-4335-A696-319B64A14EB7}
+		{CCE457CA-201D-4D3F-B067-CFFCED34AE4F} = {9AAA71C7-9671-402A-9426-D5B659FA0920}
+		{BA732AD7-5299-476D-A394-2D6E64DB3601} = {9AAA71C7-9671-402A-9426-D5B659FA0920}
+		{DE4AD26A-E32D-4BDD-BD93-1ED0F6F6FA2B} = {C3CF60BB-F359-49CC-8341-E3F0C4EA6B63}
+		{8A726107-72F5-4FFF-A8A1-822F82F37091} = {C3CF60BB-F359-49CC-8341-E3F0C4EA6B63}
 	EndGlobalSection
 EndGlobal
