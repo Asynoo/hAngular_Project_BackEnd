@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "zj6mpWhfH6OcqsVFEwID5Alv9m0S1E8+2eC6zAv9/SgVLC6qZ6S4FHyO6SYmxsXRrLXh+evbc7XkQDher3iGVw==",
+  "dgSpecHash": "Qk9zstucmnWy7966kYuL1NVJzYXGFuKl2iWUmx1o3hTlIuHvcL5ViKytVWXJcVNkYcLiDR7dtYdo4ViIy22KfA==",
   "success": true,
   "projectFilePath": "C:\\CsharpWork\\hAngular_Project\\ToMo.hAngularProject.Security\\ToMo.hAngularProject.Security.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Marco\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.0\\microsoft.entityframeworkcore.analyzers.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
