@@ -1,10 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "f28JTfhq7HpUuHknhitLUPD8u0z4s95u9ziJ3BFzWEmzFbRYZz2wcnSchLv0Oh6LHyZD6jEueQxd8MAfP99+gg==",
+  "dgSpecHash": "u36Y96GUGfbrI6Q+2wVRosEqudYAdfhB7JZqg1yMbhWF2AvXAt19Ed01W0aqakRv4yQK6e4XXcqxngn4EPvvCw==",
   "success": true,
   "projectFilePath": "C:\\CsharpWork\\hAngular_Project\\ToMo.hAngularProject.Domain\\ToMo.hAngularProject.Domain.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Marco\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.0\\microsoft.entityframeworkcore.analyzers.6.0.0.nupkg.sha512"
+    "C:\\Users\\Marco\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.0\\microsoft.entityframeworkcore.analyzers.6.0.0.nupkg.sha512",
+    "C:\\Users\\Marco\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Marco\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Marco\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\Marco\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\Marco\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\Marco\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
   ],
   "logs": []
 }
