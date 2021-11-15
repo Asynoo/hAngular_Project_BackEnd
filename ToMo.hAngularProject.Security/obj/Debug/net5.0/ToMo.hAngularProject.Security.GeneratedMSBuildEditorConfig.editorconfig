@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = ToMo.hAngularProject.Security
-build_property.ProjectDir = D:\C# Projects\hAngular_Project\ToMo.hAngularProject.Security\
+build_property.ProjectDir = D:\ToMo hAngular Project\hAngular_BackEnd\ToMo.hAngularProject.Security\

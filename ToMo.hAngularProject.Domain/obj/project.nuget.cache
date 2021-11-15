@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ha2TbxGWeQvLj1AuW2YjQM2jYbWG9eA17JZog8KaPdeZM75gnx+Im2TZ37z/TXOsHfvTXqR8y/vlBftwVWtYFw==",
+  "dgSpecHash": "E1IPtut08H+ZYdMxN0dJFUdU8C9aS7YR7HVaL10J9Mo7bY0cZ7Typ2dTBUWtnw65zs2NFTVOhxKfW2SQ3/lMDw==",
   "success": true,
-  "projectFilePath": "D:\\C# Projects\\hAngular_Project\\ToMo.hAngularProject.Domain\\ToMo.hAngularProject.Domain.csproj",
+  "projectFilePath": "D:\\ToMo hAngular Project\\hAngular_BackEnd\\ToMo.hAngularProject.Domain\\ToMo.hAngularProject.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\marcg\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
     "C:\\Users\\marcg\\.nuget\\packages\\entityframeworkcore.testing.moq\\3.0.3\\entityframeworkcore.testing.moq.3.0.3.nupkg.sha512",

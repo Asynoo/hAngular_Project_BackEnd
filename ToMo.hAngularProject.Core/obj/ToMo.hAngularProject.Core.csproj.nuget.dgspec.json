@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\C# Projects\\hAngular_Project\\ToMo.hAngularProject.Core\\ToMo.hAngularProject.Core.csproj": {}
+    "D:\\ToMo hAngular Project\\hAngular_BackEnd\\ToMo.hAngularProject.Core\\ToMo.hAngularProject.Core.csproj": {}
   },
   "projects": {
-    "D:\\C# Projects\\hAngular_Project\\ToMo.hAngularProject.Core\\ToMo.hAngularProject.Core.csproj": {
+    "D:\\ToMo hAngular Project\\hAngular_BackEnd\\ToMo.hAngularProject.Core\\ToMo.hAngularProject.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C# Projects\\hAngular_Project\\ToMo.hAngularProject.Core\\ToMo.hAngularProject.Core.csproj",
+        "projectUniqueName": "D:\\ToMo hAngular Project\\hAngular_BackEnd\\ToMo.hAngularProject.Core\\ToMo.hAngularProject.Core.csproj",
         "projectName": "ToMo.hAngularProject.Core",
-        "projectPath": "D:\\C# Projects\\hAngular_Project\\ToMo.hAngularProject.Core\\ToMo.hAngularProject.Core.csproj",
+        "projectPath": "D:\\ToMo hAngular Project\\hAngular_BackEnd\\ToMo.hAngularProject.Core\\ToMo.hAngularProject.Core.csproj",
         "packagesPath": "C:\\Users\\marcg\\.nuget\\packages\\",
-        "outputPath": "D:\\C# Projects\\hAngular_Project\\ToMo.hAngularProject.Core\\obj\\",
+        "outputPath": "D:\\ToMo hAngular Project\\hAngular_BackEnd\\ToMo.hAngularProject.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\marcg\\AppData\\Roaming\\NuGet\\NuGet.Config"

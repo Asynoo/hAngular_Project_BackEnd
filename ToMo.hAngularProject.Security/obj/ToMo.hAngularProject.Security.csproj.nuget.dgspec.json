@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\C# Projects\\hAngular_Project\\ToMo.hAngularProject.Security\\ToMo.hAngularProject.Security.csproj": {}
+    "D:\\ToMo hAngular Project\\hAngular_BackEnd\\ToMo.hAngularProject.Security\\ToMo.hAngularProject.Security.csproj": {}
   },
   "projects": {
-    "D:\\C# Projects\\hAngular_Project\\ToMo.hAngularProject.Security\\ToMo.hAngularProject.Security.csproj": {
+    "D:\\ToMo hAngular Project\\hAngular_BackEnd\\ToMo.hAngularProject.Security\\ToMo.hAngularProject.Security.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C# Projects\\hAngular_Project\\ToMo.hAngularProject.Security\\ToMo.hAngularProject.Security.csproj",
+        "projectUniqueName": "D:\\ToMo hAngular Project\\hAngular_BackEnd\\ToMo.hAngularProject.Security\\ToMo.hAngularProject.Security.csproj",
         "projectName": "ToMo.hAngularProject.Security",
-        "projectPath": "D:\\C# Projects\\hAngular_Project\\ToMo.hAngularProject.Security\\ToMo.hAngularProject.Security.csproj",
+        "projectPath": "D:\\ToMo hAngular Project\\hAngular_BackEnd\\ToMo.hAngularProject.Security\\ToMo.hAngularProject.Security.csproj",
         "packagesPath": "C:\\Users\\marcg\\.nuget\\packages\\",
-        "outputPath": "D:\\C# Projects\\hAngular_Project\\ToMo.hAngularProject.Security\\obj\\",
+        "outputPath": "D:\\ToMo hAngular Project\\hAngular_BackEnd\\ToMo.hAngularProject.Security\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\marcg\\AppData\\Roaming\\NuGet\\NuGet.Config"

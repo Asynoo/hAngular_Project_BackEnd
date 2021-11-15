@@ -30,6 +30,7 @@ namespace hAngular_Project
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "ToMo.hAngularProject.WebApi", Version = "v1" });
             });
+            services.AddCors(options => {options.AddPolicy("Dev-cors", policy => { policy.WithOrigins("http://localhost:4200").AllowAnyHeader().AllowAnyMethod();});});
             
             services.AddScoped<IProductRepository, ProductRepository>();
             services.AddScoped<IProductService, ProductService>();
@@ -44,6 +45,7 @@ namespace hAngular_Project
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "ToMo.hAngularProject.WebApi v1"));
+                app.UseCors("Dev-cors");
                 new DbSeeder(context).SeedDevelopment();
             }
 

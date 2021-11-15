@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\C# Projects\\hAngular_Project\\ToMo.hAngularProject.WebApi\\ToMo.hAngularProject.WebApi.csproj": {}
+    "D:\\ToMo hAngular Project\\hAngular_BackEnd\\ToMo.hAngularProject.WebApi\\ToMo.hAngularProject.WebApi.csproj": {}
   },
   "projects": {
-    "D:\\C# Projects\\hAngular_Project\\ToMo.hAngularProject.Core\\ToMo.hAngularProject.Core.csproj": {
+    "D:\\ToMo hAngular Project\\hAngular_BackEnd\\ToMo.hAngularProject.Core\\ToMo.hAngularProject.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C# Projects\\hAngular_Project\\ToMo.hAngularProject.Core\\ToMo.hAngularProject.Core.csproj",
+        "projectUniqueName": "D:\\ToMo hAngular Project\\hAngular_BackEnd\\ToMo.hAngularProject.Core\\ToMo.hAngularProject.Core.csproj",
         "projectName": "ToMo.hAngularProject.Core",
-        "projectPath": "D:\\C# Projects\\hAngular_Project\\ToMo.hAngularProject.Core\\ToMo.hAngularProject.Core.csproj",
+        "projectPath": "D:\\ToMo hAngular Project\\hAngular_BackEnd\\ToMo.hAngularProject.Core\\ToMo.hAngularProject.Core.csproj",
         "packagesPath": "C:\\Users\\marcg\\.nuget\\packages\\",
-        "outputPath": "D:\\C# Projects\\hAngular_Project\\ToMo.hAngularProject.Core\\obj\\",
+        "outputPath": "D:\\ToMo hAngular Project\\hAngular_BackEnd\\ToMo.hAngularProject.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\marcg\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -93,14 +93,14 @@
         }
       }
     },
-    "D:\\C# Projects\\hAngular_Project\\ToMo.hAngularProject.DataAccess\\ToMo.hAngularProject.DataAccess.csproj": {
+    "D:\\ToMo hAngular Project\\hAngular_BackEnd\\ToMo.hAngularProject.DataAccess\\ToMo.hAngularProject.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C# Projects\\hAngular_Project\\ToMo.hAngularProject.DataAccess\\ToMo.hAngularProject.DataAccess.csproj",
+        "projectUniqueName": "D:\\ToMo hAngular Project\\hAngular_BackEnd\\ToMo.hAngularProject.DataAccess\\ToMo.hAngularProject.DataAccess.csproj",
         "projectName": "ToMo.hAngularProject.DataAccess",
-        "projectPath": "D:\\C# Projects\\hAngular_Project\\ToMo.hAngularProject.DataAccess\\ToMo.hAngularProject.DataAccess.csproj",
+        "projectPath": "D:\\ToMo hAngular Project\\hAngular_BackEnd\\ToMo.hAngularProject.DataAccess\\ToMo.hAngularProject.DataAccess.csproj",
         "packagesPath": "C:\\Users\\marcg\\.nuget\\packages\\",
-        "outputPath": "D:\\C# Projects\\hAngular_Project\\ToMo.hAngularProject.DataAccess\\obj\\",
+        "outputPath": "D:\\ToMo hAngular Project\\hAngular_BackEnd\\ToMo.hAngularProject.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\marcg\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -115,8 +115,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\C# Projects\\hAngular_Project\\ToMo.hAngularProject.Domain\\ToMo.hAngularProject.Domain.csproj": {
-                "projectPath": "D:\\C# Projects\\hAngular_Project\\ToMo.hAngularProject.Domain\\ToMo.hAngularProject.Domain.csproj"
+              "D:\\ToMo hAngular Project\\hAngular_BackEnd\\ToMo.hAngularProject.Domain\\ToMo.hAngularProject.Domain.csproj": {
+                "projectPath": "D:\\ToMo hAngular Project\\hAngular_BackEnd\\ToMo.hAngularProject.Domain\\ToMo.hAngularProject.Domain.csproj"
               }
             }
           }
@@ -186,14 +186,14 @@
         }
       }
     },
-    "D:\\C# Projects\\hAngular_Project\\ToMo.hAngularProject.Domain\\ToMo.hAngularProject.Domain.csproj": {
+    "D:\\ToMo hAngular Project\\hAngular_BackEnd\\ToMo.hAngularProject.Domain\\ToMo.hAngularProject.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C# Projects\\hAngular_Project\\ToMo.hAngularProject.Domain\\ToMo.hAngularProject.Domain.csproj",
+        "projectUniqueName": "D:\\ToMo hAngular Project\\hAngular_BackEnd\\ToMo.hAngularProject.Domain\\ToMo.hAngularProject.Domain.csproj",
         "projectName": "ToMo.hAngularProject.Domain",
-        "projectPath": "D:\\C# Projects\\hAngular_Project\\ToMo.hAngularProject.Domain\\ToMo.hAngularProject.Domain.csproj",
+        "projectPath": "D:\\ToMo hAngular Project\\hAngular_BackEnd\\ToMo.hAngularProject.Domain\\ToMo.hAngularProject.Domain.csproj",
         "packagesPath": "C:\\Users\\marcg\\.nuget\\packages\\",
-        "outputPath": "D:\\C# Projects\\hAngular_Project\\ToMo.hAngularProject.Domain\\obj\\",
+        "outputPath": "D:\\ToMo hAngular Project\\hAngular_BackEnd\\ToMo.hAngularProject.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\marcg\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -208,8 +208,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\C# Projects\\hAngular_Project\\ToMo.hAngularProject.Core\\ToMo.hAngularProject.Core.csproj": {
-                "projectPath": "D:\\C# Projects\\hAngular_Project\\ToMo.hAngularProject.Core\\ToMo.hAngularProject.Core.csproj"
+              "D:\\ToMo hAngular Project\\hAngular_BackEnd\\ToMo.hAngularProject.Core\\ToMo.hAngularProject.Core.csproj": {
+                "projectPath": "D:\\ToMo hAngular Project\\hAngular_BackEnd\\ToMo.hAngularProject.Core\\ToMo.hAngularProject.Core.csproj"
               }
             }
           }
@@ -279,14 +279,14 @@
         }
       }
     },
-    "D:\\C# Projects\\hAngular_Project\\ToMo.hAngularProject.WebApi\\ToMo.hAngularProject.WebApi.csproj": {
+    "D:\\ToMo hAngular Project\\hAngular_BackEnd\\ToMo.hAngularProject.WebApi\\ToMo.hAngularProject.WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C# Projects\\hAngular_Project\\ToMo.hAngularProject.WebApi\\ToMo.hAngularProject.WebApi.csproj",
+        "projectUniqueName": "D:\\ToMo hAngular Project\\hAngular_BackEnd\\ToMo.hAngularProject.WebApi\\ToMo.hAngularProject.WebApi.csproj",
         "projectName": "ToMo.hAngularProject.WebApi",
-        "projectPath": "D:\\C# Projects\\hAngular_Project\\ToMo.hAngularProject.WebApi\\ToMo.hAngularProject.WebApi.csproj",
+        "projectPath": "D:\\ToMo hAngular Project\\hAngular_BackEnd\\ToMo.hAngularProject.WebApi\\ToMo.hAngularProject.WebApi.csproj",
         "packagesPath": "C:\\Users\\marcg\\.nuget\\packages\\",
-        "outputPath": "D:\\C# Projects\\hAngular_Project\\ToMo.hAngularProject.WebApi\\obj\\",
+        "outputPath": "D:\\ToMo hAngular Project\\hAngular_BackEnd\\ToMo.hAngularProject.WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\marcg\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -301,14 +301,14 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\C# Projects\\hAngular_Project\\ToMo.hAngularProject.Core\\ToMo.hAngularProject.Core.csproj": {
-                "projectPath": "D:\\C# Projects\\hAngular_Project\\ToMo.hAngularProject.Core\\ToMo.hAngularProject.Core.csproj"
+              "D:\\ToMo hAngular Project\\hAngular_BackEnd\\ToMo.hAngularProject.Core\\ToMo.hAngularProject.Core.csproj": {
+                "projectPath": "D:\\ToMo hAngular Project\\hAngular_BackEnd\\ToMo.hAngularProject.Core\\ToMo.hAngularProject.Core.csproj"
               },
-              "D:\\C# Projects\\hAngular_Project\\ToMo.hAngularProject.DataAccess\\ToMo.hAngularProject.DataAccess.csproj": {
-                "projectPath": "D:\\C# Projects\\hAngular_Project\\ToMo.hAngularProject.DataAccess\\ToMo.hAngularProject.DataAccess.csproj"
+              "D:\\ToMo hAngular Project\\hAngular_BackEnd\\ToMo.hAngularProject.DataAccess\\ToMo.hAngularProject.DataAccess.csproj": {
+                "projectPath": "D:\\ToMo hAngular Project\\hAngular_BackEnd\\ToMo.hAngularProject.DataAccess\\ToMo.hAngularProject.DataAccess.csproj"
               },
-              "D:\\C# Projects\\hAngular_Project\\ToMo.hAngularProject.Domain\\ToMo.hAngularProject.Domain.csproj": {
-                "projectPath": "D:\\C# Projects\\hAngular_Project\\ToMo.hAngularProject.Domain\\ToMo.hAngularProject.Domain.csproj"
+              "D:\\ToMo hAngular Project\\hAngular_BackEnd\\ToMo.hAngularProject.Domain\\ToMo.hAngularProject.Domain.csproj": {
+                "projectPath": "D:\\ToMo hAngular Project\\hAngular_BackEnd\\ToMo.hAngularProject.Domain\\ToMo.hAngularProject.Domain.csproj"
               }
             }
           }
