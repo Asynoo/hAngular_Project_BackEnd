@@ -48,6 +48,10 @@ namespace hAngular_Project
                 app.UseCors("Dev-cors");
                 new DbSeeder(context).SeedDevelopment();
             }
+            else
+            {
+                new DbSeeder(context).SeedProduction();
+            }
 
             app.UseHttpsRedirection();
 

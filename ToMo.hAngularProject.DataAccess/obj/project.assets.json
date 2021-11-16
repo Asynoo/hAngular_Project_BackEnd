@@ -9643,19 +9643,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\marcg\\.nuget\\packages\\": {}
+    "C:\\Users\\Marco\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ToMo hAngular Project\\hAngular_BackEnd\\ToMo.hAngularProject.DataAccess\\ToMo.hAngularProject.DataAccess.csproj",
+      "projectUniqueName": "C:\\Users\\Marco\\Documents\\GitHub\\hAngular_Project\\ToMo.hAngularProject.DataAccess\\ToMo.hAngularProject.DataAccess.csproj",
       "projectName": "ToMo.hAngularProject.DataAccess",
-      "projectPath": "D:\\ToMo hAngular Project\\hAngular_BackEnd\\ToMo.hAngularProject.DataAccess\\ToMo.hAngularProject.DataAccess.csproj",
-      "packagesPath": "C:\\Users\\marcg\\.nuget\\packages\\",
-      "outputPath": "D:\\ToMo hAngular Project\\hAngular_BackEnd\\ToMo.hAngularProject.DataAccess\\obj\\",
+      "projectPath": "C:\\Users\\Marco\\Documents\\GitHub\\hAngular_Project\\ToMo.hAngularProject.DataAccess\\ToMo.hAngularProject.DataAccess.csproj",
+      "packagesPath": "C:\\Users\\Marco\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Marco\\Documents\\GitHub\\hAngular_Project\\ToMo.hAngularProject.DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\marcg\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Marco\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -9667,8 +9667,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\ToMo hAngular Project\\hAngular_BackEnd\\ToMo.hAngularProject.Domain\\ToMo.hAngularProject.Domain.csproj": {
-              "projectPath": "D:\\ToMo hAngular Project\\hAngular_BackEnd\\ToMo.hAngularProject.Domain\\ToMo.hAngularProject.Domain.csproj"
+            "C:\\Users\\Marco\\Documents\\GitHub\\hAngular_Project\\ToMo.hAngularProject.Domain\\ToMo.hAngularProject.Domain.csproj": {
+              "projectPath": "C:\\Users\\Marco\\Documents\\GitHub\\hAngular_Project\\ToMo.hAngularProject.Domain\\ToMo.hAngularProject.Domain.csproj"
             }
           }
         }
@@ -9734,7 +9734,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\marcg\\.dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\Marco\\.dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
