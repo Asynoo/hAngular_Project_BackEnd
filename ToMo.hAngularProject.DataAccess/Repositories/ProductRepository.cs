@@ -2,6 +2,7 @@
 using System.IO;
 using System.Linq;
 using ToMo.hAngularProject.Core.Models;
+using ToMo.hAngularProject.DataAccess.Entities;
 using ToMo.hAngularProject.Domain.IRepositories;
 
 namespace ToMo.hAngularProject.DataAccess.Repositories
@@ -19,6 +20,11 @@ namespace ToMo.hAngularProject.DataAccess.Repositories
         public List<Product> FindAll()
         {
             return _ctx.Products.Select(pe => new Product {Id = pe.Id, Name = pe.Name}).ToList();
+        }
+        public void AddProduct(Product product)
+        {
+            var pe = new ProductEntity{Name = product.Name};
+            _ctx.Products.Add(pe);
         }
     }
 }

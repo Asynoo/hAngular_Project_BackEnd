@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using Moq;
 using ToMo.hAngularProject.Core.IServices;
@@ -58,6 +59,21 @@ namespace ToMo.hAngularProject.Domain.Test
             _mock.Setup(r => r.FindAll()).Returns(_expected);
             var actual = _service.GetProducts();
             Assert.Equal(_expected, actual);
+        }
+
+        [Fact]
+        public void CreateProduct_CallsAddProductExactlyOnce()
+        {
+            var product = new Product();
+            _service.CreateProduct(product);
+            _mock.Verify(r => r.AddProduct(product), Times.Once);
+        }
+        
+        [Fact]
+        public void CreateProduct_NoParam_ThrowsArgumentException()
+        {
+            var ex = Assert.Throws<ArgumentException>(() => _service.CreateProduct(null));
+            Assert.Equal("Product cannot be null",ex.Message);
         }
     }
 }

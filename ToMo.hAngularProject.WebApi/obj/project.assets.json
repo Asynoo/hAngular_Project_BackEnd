@@ -3003,10 +3003,7 @@
         },
         "runtime": {
           "bin/placeholder/ToMo.hAngularProject.Core.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
+        }
       },
       "ToMo.hAngularProject.DataAccess/1.0.0": {
         "type": "project",
@@ -3027,10 +3024,7 @@
         },
         "runtime": {
           "bin/placeholder/ToMo.hAngularProject.DataAccess.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
+        }
       },
       "ToMo.hAngularProject.Domain/1.0.0": {
         "type": "project",
@@ -3051,10 +3045,7 @@
         },
         "runtime": {
           "bin/placeholder/ToMo.hAngularProject.Domain.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
+        }
       }
     }
   },
@@ -9674,19 +9665,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\marcg\\.nuget\\packages\\": {}
+    "C:\\Users\\HP\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ToMo hAngular Project\\hAngular_BackEnd\\ToMo.hAngularProject.WebApi\\ToMo.hAngularProject.WebApi.csproj",
+      "projectUniqueName": "C:\\RiderProjects\\hAngular_Project_BackEnd\\ToMo.hAngularProject.WebApi\\ToMo.hAngularProject.WebApi.csproj",
       "projectName": "ToMo.hAngularProject.WebApi",
-      "projectPath": "D:\\ToMo hAngular Project\\hAngular_BackEnd\\ToMo.hAngularProject.WebApi\\ToMo.hAngularProject.WebApi.csproj",
-      "packagesPath": "C:\\Users\\marcg\\.nuget\\packages\\",
-      "outputPath": "D:\\ToMo hAngular Project\\hAngular_BackEnd\\ToMo.hAngularProject.WebApi\\obj\\",
+      "projectPath": "C:\\RiderProjects\\hAngular_Project_BackEnd\\ToMo.hAngularProject.WebApi\\ToMo.hAngularProject.WebApi.csproj",
+      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+      "outputPath": "C:\\RiderProjects\\hAngular_Project_BackEnd\\ToMo.hAngularProject.WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\marcg\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -9698,14 +9689,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\ToMo hAngular Project\\hAngular_BackEnd\\ToMo.hAngularProject.Core\\ToMo.hAngularProject.Core.csproj": {
-              "projectPath": "D:\\ToMo hAngular Project\\hAngular_BackEnd\\ToMo.hAngularProject.Core\\ToMo.hAngularProject.Core.csproj"
+            "C:\\RiderProjects\\hAngular_Project_BackEnd\\ToMo.hAngularProject.Core\\ToMo.hAngularProject.Core.csproj": {
+              "projectPath": "C:\\RiderProjects\\hAngular_Project_BackEnd\\ToMo.hAngularProject.Core\\ToMo.hAngularProject.Core.csproj"
             },
-            "D:\\ToMo hAngular Project\\hAngular_BackEnd\\ToMo.hAngularProject.DataAccess\\ToMo.hAngularProject.DataAccess.csproj": {
-              "projectPath": "D:\\ToMo hAngular Project\\hAngular_BackEnd\\ToMo.hAngularProject.DataAccess\\ToMo.hAngularProject.DataAccess.csproj"
+            "C:\\RiderProjects\\hAngular_Project_BackEnd\\ToMo.hAngularProject.DataAccess\\ToMo.hAngularProject.DataAccess.csproj": {
+              "projectPath": "C:\\RiderProjects\\hAngular_Project_BackEnd\\ToMo.hAngularProject.DataAccess\\ToMo.hAngularProject.DataAccess.csproj"
             },
-            "D:\\ToMo hAngular Project\\hAngular_BackEnd\\ToMo.hAngularProject.Domain\\ToMo.hAngularProject.Domain.csproj": {
-              "projectPath": "D:\\ToMo hAngular Project\\hAngular_BackEnd\\ToMo.hAngularProject.Domain\\ToMo.hAngularProject.Domain.csproj"
+            "C:\\RiderProjects\\hAngular_Project_BackEnd\\ToMo.hAngularProject.Domain\\ToMo.hAngularProject.Domain.csproj": {
+              "projectPath": "C:\\RiderProjects\\hAngular_Project_BackEnd\\ToMo.hAngularProject.Domain\\ToMo.hAngularProject.Domain.csproj"
             }
           }
         }
@@ -9763,6 +9754,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[5.0.12, 5.0.12]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -9771,7 +9768,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\marcg\\.dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

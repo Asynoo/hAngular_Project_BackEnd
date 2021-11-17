@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using ToMo.hAngularProject.Core.IServices;
 using ToMo.hAngularProject.Core.Models;
@@ -19,6 +20,13 @@ namespace ToMo.hAngularProject.Domain.Services
         {
             return _productRepository.FindAll();
 
+        }
+
+        public void CreateProduct(Product product)
+        {
+            if (product == null)
+                throw new ArgumentException("Product cannot be null");
+            _productRepository.AddProduct(product);
         }
     }
 }
