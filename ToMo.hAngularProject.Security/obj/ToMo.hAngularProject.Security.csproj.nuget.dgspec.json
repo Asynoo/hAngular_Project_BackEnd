@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\RiderProjects\\hAngular_Project_BackEnd\\ToMo.hAngularProject.Security\\ToMo.hAngularProject.Security.csproj": {}
+    "C:\\Users\\Marco\\Documents\\GitHub\\hAngular_Project\\ToMo.hAngularProject.Security\\ToMo.hAngularProject.Security.csproj": {}
   },
   "projects": {
-    "C:\\RiderProjects\\hAngular_Project_BackEnd\\ToMo.hAngularProject.Security\\ToMo.hAngularProject.Security.csproj": {
+    "C:\\Users\\Marco\\Documents\\GitHub\\hAngular_Project\\ToMo.hAngularProject.Security\\ToMo.hAngularProject.Security.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\RiderProjects\\hAngular_Project_BackEnd\\ToMo.hAngularProject.Security\\ToMo.hAngularProject.Security.csproj",
+        "projectUniqueName": "C:\\Users\\Marco\\Documents\\GitHub\\hAngular_Project\\ToMo.hAngularProject.Security\\ToMo.hAngularProject.Security.csproj",
         "projectName": "ToMo.hAngularProject.Security",
-        "projectPath": "C:\\RiderProjects\\hAngular_Project_BackEnd\\ToMo.hAngularProject.Security\\ToMo.hAngularProject.Security.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\RiderProjects\\hAngular_Project_BackEnd\\ToMo.hAngularProject.Security\\obj\\",
+        "projectPath": "C:\\Users\\Marco\\Documents\\GitHub\\hAngular_Project\\ToMo.hAngularProject.Security\\ToMo.hAngularProject.Security.csproj",
+        "packagesPath": "C:\\Users\\Marco\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Marco\\Documents\\GitHub\\hAngular_Project\\ToMo.hAngularProject.Security\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Marco\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -82,11 +82,14 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\Marco\\.dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

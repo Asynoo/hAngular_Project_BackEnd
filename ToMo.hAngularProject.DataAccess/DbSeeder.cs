@@ -19,7 +19,13 @@ namespace ToMo.hAngularProject.DataAccess
             _ctx.Products.Add(new ProductEntity {Name = "Item2"});
             _ctx.Products.Add(new ProductEntity {Name = "Item3"});
             _ctx.Products.Add(new ProductEntity {Name = "Item4"});
+            _ctx.Products.Add(new ProductEntity {Name = "Cock n Ball Shaver"});
             _ctx.SaveChanges();
+        }
+
+        public void SeedProduction()
+        {
+            _ctx.Database.EnsureCreated();
         }
     }
 }
