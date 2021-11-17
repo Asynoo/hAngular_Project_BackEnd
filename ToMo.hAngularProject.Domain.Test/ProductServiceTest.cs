@@ -83,5 +83,27 @@ namespace ToMo.hAngularProject.Domain.Test
             _service.DeleteProduct(product);
             _mock.Verify(r => r.RemoveProduct(product.Id), Times.Once);
         }
+        
+        [Fact]
+        public void DeleteProduct_NoParam_ThrowsArgumentException()
+        {
+            var ex = Assert.Throws<ArgumentException>(() => _service.DeleteProduct(null));
+            Assert.Equal("Product cannot be null",ex.Message);
+        }
+        
+        [Fact]
+        public void UpdateProduct_CallsUpdateProductExactlyOnce()
+        {
+            var product = new Product();
+            _service.UpdateProduct(product);
+            _mock.Verify(r => r.UpdateProduct(product), Times.Once);
+        }
+        
+        [Fact]
+        public void UpdateProduct_NoParam_ThrowsArgumentException()
+        {
+            var ex = Assert.Throws<ArgumentException>(() => _service.UpdateProduct(null));
+            Assert.Equal("Product cannot be null",ex.Message);
+        }
     }
 }
