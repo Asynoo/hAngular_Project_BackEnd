@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Marco\\Documents\\GitHub\\hAngular_Project\\ToMo.hAngularProject.Core\\ToMo.hAngularProject.Core.csproj": {}
+    "D:\\ToMo hAngular Project\\hAngular_BackEnd\\ToMo.hAngularProject.Core\\ToMo.hAngularProject.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Marco\\Documents\\GitHub\\hAngular_Project\\ToMo.hAngularProject.Core\\ToMo.hAngularProject.Core.csproj": {
+    "D:\\ToMo hAngular Project\\hAngular_BackEnd\\ToMo.hAngularProject.Core\\ToMo.hAngularProject.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Marco\\Documents\\GitHub\\hAngular_Project\\ToMo.hAngularProject.Core\\ToMo.hAngularProject.Core.csproj",
+        "projectUniqueName": "D:\\ToMo hAngular Project\\hAngular_BackEnd\\ToMo.hAngularProject.Core\\ToMo.hAngularProject.Core.csproj",
         "projectName": "ToMo.hAngularProject.Core",
-        "projectPath": "C:\\Users\\Marco\\Documents\\GitHub\\hAngular_Project\\ToMo.hAngularProject.Core\\ToMo.hAngularProject.Core.csproj",
-        "packagesPath": "C:\\Users\\Marco\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Marco\\Documents\\GitHub\\hAngular_Project\\ToMo.hAngularProject.Core\\obj\\",
+        "projectPath": "D:\\ToMo hAngular Project\\hAngular_BackEnd\\ToMo.hAngularProject.Core\\ToMo.hAngularProject.Core.csproj",
+        "packagesPath": "C:\\Users\\marcg\\.nuget\\packages\\",
+        "outputPath": "D:\\ToMo hAngular Project\\hAngular_BackEnd\\ToMo.hAngularProject.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Marco\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\marcg\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -89,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\Marco\\.dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\marcg\\.dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

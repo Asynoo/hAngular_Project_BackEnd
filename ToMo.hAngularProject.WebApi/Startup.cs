@@ -26,16 +26,37 @@ namespace hAngular_Project
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "ToMo.hAngularProject.WebApi", Version = "v1" });
             });
-            services.AddCors(options => {options.AddPolicy("Dev-cors", policy => { policy.WithOrigins("http://localhost:4200").AllowAnyHeader().AllowAnyMethod();});});
-            
+
             services.AddScoped<IProductRepository, ProductRepository>();
             services.AddScoped<IProductService, ProductService>();
             
             services.AddDbContext<MainDbContext>(options => { options.UseSqlite("Data Source=MoTo.db");});
+            
+            services.AddCors(options => {options.AddPolicy("Dev-cors",
+                policy =>
+                {
+                    policy
+                        .WithOrigins("http://localhost:4200")
+                        .AllowAnyHeader()
+                        .AllowAnyMethod();
+                });});
+            
+            services.AddCors(options =>
+            {
+                options.AddPolicy("Prod-cors",
+                    policy =>
+                    {
+                        policy
+                            .WithOrigins("https://hangularproject.firebaseapp.com")
+                            .AllowAnyHeader()
+                            .AllowAnyMethod();
+                    });
+            });
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env, MainDbContext context)
@@ -50,6 +71,7 @@ namespace hAngular_Project
             }
             else
             {
+                app.UseCors("Prod-cors");
                 new DbSeeder(context).SeedProduction();
             }
 
