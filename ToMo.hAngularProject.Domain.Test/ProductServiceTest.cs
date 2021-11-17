@@ -75,5 +75,13 @@ namespace ToMo.hAngularProject.Domain.Test
             var ex = Assert.Throws<ArgumentException>(() => _service.CreateProduct(null));
             Assert.Equal("Product cannot be null",ex.Message);
         }
+        
+        [Fact]
+        public void DeleteProduct_CallsRemoveProductExactlyOnce()
+        {
+            var product = new Product();
+            _service.DeleteProduct(product);
+            _mock.Verify(r => r.RemoveProduct(product.Id), Times.Once);
+        }
     }
 }

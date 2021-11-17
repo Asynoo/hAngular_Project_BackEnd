@@ -7,5 +7,6 @@ namespace ToMo.hAngularProject.Domain.IRepositories
     {
         List<Product> FindAll();
         void AddProduct(Product product);
+        void RemoveProduct(int id);
     }
 }

@@ -26,5 +26,10 @@ namespace ToMo.hAngularProject.DataAccess.Repositories
             var pe = new ProductEntity{Name = product.Name};
             _ctx.Products.Add(pe);
         }
+
+        public void RemoveProduct(int id)
+        {
+            _ctx.Products.Remove(_ctx.Products.FirstOrDefault(entity => entity.Id == id));
+        }
     }
 }
