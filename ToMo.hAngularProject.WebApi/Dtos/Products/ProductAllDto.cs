@@ -1,5 +1,4 @@
 ﻿using System.Collections.Generic;
-using ToMo.hAngularProject.Core.Models;
 
 namespace hAngular_Project.Dtos.Products
 {

@@ -52,7 +52,7 @@ namespace hAngular_Project
                     policy =>
                     {
                         policy
-                            .WithOrigins("https://hangularproject.firebaseapp.com", "https://hangularproject.web.app")
+                            .WithOrigins("https://hangularproject.firebaseapp.com")
                             .AllowAnyHeader()
                             .AllowAnyMethod();
                     });

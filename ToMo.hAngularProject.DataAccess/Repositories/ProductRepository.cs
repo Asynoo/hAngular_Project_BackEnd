@@ -30,11 +30,13 @@ namespace ToMo.hAngularProject.DataAccess.Repositories
 
         public void RemoveProduct(int id)
         {
+            if (!_ctx.Products.Any(entity => entity.Id == id)) return;
             _ctx.Products.Remove(_ctx.Products.FirstOrDefault(entity => entity.Id == id));
             _ctx.SaveChanges();
         }
         public void UpdateProduct(Product product)
         {
+            if (!_ctx.Products.Any(entity => entity.Id == product.Id)) return;
             _ctx.Products.Update(new ProductEntity{Id = product.Id,Name = product.Name});
             _ctx.SaveChanges();
         }
