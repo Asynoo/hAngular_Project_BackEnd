@@ -29,11 +29,9 @@ namespace ToMo.hAngularProject.Domain.Services
             _productRepository.AddProduct(product);
         }
 
-        public void DeleteProduct(Product product)
+        public void DeleteProduct(int productId)
         {
-            if (product == null)
-                throw new ArgumentException("Product cannot be null");
-            _productRepository.RemoveProduct(product.Id);
+            _productRepository.RemoveProduct(productId);
         }
 
         public void UpdateProduct(Product product)

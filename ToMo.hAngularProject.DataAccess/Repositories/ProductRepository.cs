@@ -35,7 +35,7 @@ namespace ToMo.hAngularProject.DataAccess.Repositories
         }
         public void UpdateProduct(Product product)
         {
-            _ctx.Products.Update(new ProductEntity());
+            _ctx.Products.Update(new ProductEntity{Id = product.Id,Name = product.Name});
             _ctx.SaveChanges();
         }
     }
