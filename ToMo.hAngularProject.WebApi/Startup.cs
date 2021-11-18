@@ -125,7 +125,7 @@ namespace hAngular_Project
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "ToMo.hAngularProject.WebApi v1"));
-                app.UseCors("Dev-cors");
+                app.UseCors("dev-policy");
                 new DbSeeder(context).SeedDevelopment();
                 
                 #region Setup AuthContext
