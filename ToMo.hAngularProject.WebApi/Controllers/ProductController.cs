@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
+﻿using System.IO;
 using System.Linq;
 using hAngular_Project.Dtos.Products;
 using ToMo.hAngularProject.Core.IServices;
@@ -26,12 +24,20 @@ namespace hAngular_Project.Controllers
         }
 
         [HttpGet]
-        public ActionResult<ProductAllDto> GetAll()
+        public ActionResult<ProductAllDto> Get()
         {
             var list = _productService.GetProducts()
                 .Select(p => new ProductDto {Id = p.Id, Name = p.Name})
                 .ToList();
             return Ok(new ProductAllDto {ProductDtos = list});
+        }
+        
+        [HttpGet("{id:int}")]
+        public ActionResult<ProductAllDto> Get(int id)
+        {
+            var product = _productService.GetProduct(id);
+            if (product == null) return NotFound();
+            return Ok(new ProductDto {Id = product.Id, Name = product.Name});
         }
 
         [HttpDelete("{id:int}")]
@@ -41,11 +47,11 @@ namespace hAngular_Project.Controllers
             return Ok();
         }
 
-        [HttpPut]
+        [HttpPost]
         public ActionResult<ProductDto> Create(ProductDto productDto)
         {
-            _productService.CreateProduct(new Product{Id = productDto.Id, Name = productDto.Name});
-            return Ok(productDto);
+            var product = _productService.CreateProduct(new Product{Id = productDto.Id, Name = productDto.Name});
+            return StatusCode(201,productDto);
         }
         
         [HttpPut("{id:int}")]

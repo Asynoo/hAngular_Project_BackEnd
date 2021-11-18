@@ -6,8 +6,9 @@ namespace ToMo.hAngularProject.Domain.IRepositories
     public interface IProductRepository
     {
         List<Product> FindAll();
-        void AddProduct(Product product);
+        Product AddProduct(Product product);
         void RemoveProduct(int id);
         void UpdateProduct(Product product);
+        Product FindProduct(int productId);
     }
 }

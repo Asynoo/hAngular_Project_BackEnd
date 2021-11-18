@@ -21,17 +21,17 @@ namespace ToMo.hAngularProject.DataAccess.Repositories
         {
             return _ctx.Products.Select(pe => new Product {Id = pe.Id, Name = pe.Name}).ToList();
         }
-        public void AddProduct(Product product)
+        public Product AddProduct(Product product)
         {
             var pe = new ProductEntity{Name = product.Name};
-            _ctx.Products.Add(pe);
+            var createdEntity = _ctx.Products.Add(pe);
             _ctx.SaveChanges();
+            return new Product {Id = createdEntity.Entity.Id,Name = createdEntity.Entity.Name};
         }
 
-        public void RemoveProduct(int id)
+        public void RemoveProduct(int productId)
         {
-            if (!_ctx.Products.Any(entity => entity.Id == id)) return;
-            _ctx.Products.Remove(_ctx.Products.FirstOrDefault(entity => entity.Id == id));
+            _ctx.Products.Remove(_ctx.Products.FirstOrDefault(entity => entity.Id == productId));
             _ctx.SaveChanges();
         }
         public void UpdateProduct(Product product)
@@ -39,6 +39,12 @@ namespace ToMo.hAngularProject.DataAccess.Repositories
             if (!_ctx.Products.Any(entity => entity.Id == product.Id)) return;
             _ctx.Products.Update(new ProductEntity{Id = product.Id,Name = product.Name});
             _ctx.SaveChanges();
+        }
+
+        public Product FindProduct(int productId)
+        {
+            var product = _ctx.Products.FirstOrDefault(entity => entity.Id == productId);
+            return product != null ? new Product {Id = product.Id, Name = product.Name} : null;
         }
     }
 }

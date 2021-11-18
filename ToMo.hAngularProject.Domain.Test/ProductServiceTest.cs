@@ -83,6 +83,14 @@ namespace ToMo.hAngularProject.Domain.Test
             _service.DeleteProduct(productId);
             _mock.Verify(r => r.RemoveProduct(productId), Times.Once);
         }
+        
+        [Fact]
+        public void GetProduct_CallsFindProductExactlyOnce()
+        {
+            const int productId = new int();
+            _service.GetProduct(productId);
+            _mock.Verify(r => r.FindProduct(productId), Times.Once);
+        }
 
         [Fact]
         public void UpdateProduct_CallsUpdateProductExactlyOnce()
