@@ -94,12 +94,18 @@ namespace hAngular_Project
             });
             services.AddSingleton<IAuthorizationHandler, CanWriteProductsHandler>();
             services.AddSingleton<IAuthorizationHandler, CanReadProductsHandler>();
+            services.AddSingleton<IAuthorizationHandler, CanEditProductsHandler>();
+            services.AddSingleton<IAuthorizationHandler, CanRemoveProductsHandler>();
             services.AddAuthorization(options =>
             {
                 options.AddPolicy(nameof(CanWriteProductsHandler), 
                     policy => policy.Requirements.Add(new CanWriteProductsHandler()));
                 options.AddPolicy(nameof(CanReadProductsHandler), 
                     policy => policy.Requirements.Add(new CanReadProductsHandler()));
+                options.AddPolicy(nameof(CanEditProductsHandler), 
+                    policy => policy.Requirements.Add(new CanEditProductsHandler()));
+                options.AddPolicy(nameof(CanRemoveProductsHandler), 
+                    policy => policy.Requirements.Add(new CanRemoveProductsHandler()));
             });
             services.AddCors(opt => opt
                 .AddPolicy("dev-policy", policy =>
@@ -128,15 +134,21 @@ namespace hAngular_Project
                 authDbContext.Database.EnsureCreated();
                 authDbContext.LoginUsers.Add(new LoginUser
                 {
-                    UserName = "ljuul",
-                    HashedPassword = "123456",
+                    UserName = "admin",
+                    HashedPassword = "admin",
                     DbUserId = 1,
                 });
                 authDbContext.LoginUsers.Add(new LoginUser
                 {
-                    UserName = "ljuul2",
-                    HashedPassword = "123456",
+                    UserName = "user",
+                    HashedPassword = "user",
                     DbUserId = 2,
+                });
+                authDbContext.LoginUsers.Add(new LoginUser
+                {
+                    UserName = "moderator",
+                    HashedPassword = "moderator",
+                    DbUserId = 3,
                 });
                 authDbContext.Permissions.AddRange(new Permission()
                 {
@@ -146,7 +158,7 @@ namespace hAngular_Project
                     Name = "CanRemoveProducts"
                 },new Permission()
                 {
-                    Name = "CanWriteProducts"
+                    Name = "CanEditProducts"
                 }, new Permission()
                 {
                     Name = "CanReadProducts"
@@ -154,7 +166,11 @@ namespace hAngular_Project
                 authDbContext.SaveChanges();
                 authDbContext.UserPermissions.Add(new UserPermission { PermissionId = 1, UserId = 1 });
                 authDbContext.UserPermissions.Add(new UserPermission { PermissionId = 2, UserId = 1 });
-                authDbContext.UserPermissions.Add(new UserPermission { PermissionId = 2, UserId = 2 });
+                authDbContext.UserPermissions.Add(new UserPermission { PermissionId = 3, UserId = 1 });
+                authDbContext.UserPermissions.Add(new UserPermission { PermissionId = 4, UserId = 1 });
+                authDbContext.UserPermissions.Add(new UserPermission { PermissionId = 4, UserId = 2 });
+                authDbContext.UserPermissions.Add(new UserPermission { PermissionId = 3, UserId = 3 });
+                authDbContext.UserPermissions.Add(new UserPermission { PermissionId = 4, UserId = 3 });
                 authDbContext.SaveChanges();
                 
 

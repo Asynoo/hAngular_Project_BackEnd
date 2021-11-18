@@ -53,7 +53,5 @@ namespace hAngular_Project.Controllers
 
             return Unauthorized();
         }
-        
     }
-    
 }
