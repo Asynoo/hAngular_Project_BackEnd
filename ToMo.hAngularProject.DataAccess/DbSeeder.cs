@@ -1,4 +1,5 @@
-﻿using ToMo.hAngularProject.DataAccess.Entities;
+﻿using System.Linq;
+using ToMo.hAngularProject.DataAccess.Entities;
 
 namespace ToMo.hAngularProject.DataAccess
 {
@@ -27,6 +28,17 @@ namespace ToMo.hAngularProject.DataAccess
         public void SeedProduction()
         {
             _ctx.Database.EnsureCreated();
+            var count = _ctx.Products.Count();
+            if (count == 0)
+            {
+                _ctx.Products.Add(new ProductEntity {Name = "Product 1"});
+                _ctx.Products.Add(new ProductEntity {Name = "Product 2"});
+                _ctx.Products.Add(new ProductEntity {Name = "Product 3"});
+                _ctx.Products.Add(new ProductEntity {Name = "Product 4"});
+                _ctx.Products.Add(new ProductEntity {Name = "Product 5"});
+                _ctx.Products.Add(new ProductEntity {Name = "Product 6"});
+                _ctx.SaveChanges();
+            }
         }
     }
 }
