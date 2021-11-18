@@ -29,7 +29,7 @@ namespace hAngular_Project.Controllers
             var list = _productService.GetProducts()
                 .Select(p => new ProductDto {Id = p.Id, Name = p.Name})
                 .ToList();
-            return Ok(new ProductAllDto {ProductDtos = list});
+            return Ok(list);
         }
         
         [HttpGet("{id:int}")]
